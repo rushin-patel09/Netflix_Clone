@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  cursor: url(assets/image/iconmonstr.svg) 20 20, auto;
+  /* cursor: progress; */
+  background-color: black;
+}
+
+a{
+  cursor: url(assets/image/logo.svg) 15 15, auto;
+}
+
+#firstDiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.815)),
+    url("assets/image/bg.jpg");
+  background-size: max(1200px, 100vw);
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  gap: 25%;
+}
+
+#navbar div a {
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 4px 10px;
+  font-size: small;
+}
+
+.redBg {
+  background-color: red;
+}
+
+.heading-container {
+  padding: 180px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+
+.heading-container>h1 {
+  font-size: 3em;
+  padding-bottom: 25px;
+}
+
+.heading-container>h4 {
+  font-weight: normal;
+  font-size: 1.25em;
+  padding-bottom: 25px;
+}
+
+#emailForStart {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 250px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.heading-container a {
+  text-align: center;
+  padding: 5px 25px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: larger;
+}
+
+.sperationline {
+  border: 3px solid rgb(46, 44, 44);
+}
+
+.enjoyTv-Container2,
+.watchEverywhere-Contrainer2 {
+  position: relative;
+}
+
+.enjoyTv-Container2>video,
+.watchEverywhere-Contrainer2>video {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  width: 470px;
+  z-index: -1;
+}
+
+.descriptionBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.Container1 {
+  width: 45%;
+  margin-right: 25px;
+}
+
+.watchEverywhere-Contrainer2>video {
+  width: 525px;
+  top: 17%;
+}
+
+.askQuestions {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.askQuestions-Heading {
+  padding: 35px 0px;
+}
+
+.askQuestions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Questions {
+  display: flex;
+  background-color: #414141;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  padding: 15px 25px;
+  min-width: 60vw;
+}
+
+.Questions>h3 {
+  padding-bottom: 0;
+}
+
+.Questions>span {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.footerdiv {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submenu-container-all a {
+  padding: 10px 60px;
+}
+
+.callUs>h4 {
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
+.submenu-container {
+  display: flex;
+}
+
+.submenu-container-all {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (width <=480px) {
+  .heading-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
